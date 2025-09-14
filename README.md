@@ -2,5 +2,5 @@
 # Corne Keymap
 
 
-<img src="keymap-drawer/eyelash_corne.svg" >
+<img src="keymap-drawer/eyeslash_corne.svg" >
 
