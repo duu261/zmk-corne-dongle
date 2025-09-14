@@ -66,6 +66,12 @@
             bindings = <&kp ESCAPE>;
             key-positions = <23 24>;
         };
+
+        softoff {
+            bindings = <&soft_off>;
+            key-positions = <34>;
+            require-prior-idle-ms = <2000>;
+        };
     };
 
     keymap {
