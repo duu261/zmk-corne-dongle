@@ -44,12 +44,12 @@ layers:
   - {t: /, s: '?'}
   - '&td1'
   - LGUI
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-space$$', h: Num}
   - {t: '$$mdi:keyboard-tab$$', h: Fn}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: Symbol}
   - $$mdi:apple-keyboard-option$$
-  NUMBER:
+  Num:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
@@ -199,3 +199,5 @@ layers:
 combos:
 - p: [23, 24]
   k: $$mdi:keyboard-esc$$
+- p: [34, 20]
+  k: '&soft_off'
